@@ -1,11 +1,36 @@
-button {
+.Wrapper button {
     width: 3em;
     height: 3em;
     font-size: 1.5em;
     border-radius: 2em;
     border: none;
+    margin: 0.3em;
+}
+
+.Wrapper button:hover {
+    cursor: pointer;
 }
 
 .Wrapper {
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(23, 22, 22);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.Orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.Gray {
+    background-color: #505050;
+    color: white;
+}
+
+.Result {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.8em;
+    font-size: 3em;
 }
