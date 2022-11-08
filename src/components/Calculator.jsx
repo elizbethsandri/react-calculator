@@ -45,13 +45,11 @@ export default function Calculator() {
             setNumber(oldNumber / number);
         } else if (operator === "-") {
             setNumber(oldNumber - number);
+        } else if (operator === "x") {
+            setNumber(oldNumber * number);
         } else if (operator === "+") {
             setNumber(parseFloat(oldNumber) + parseFloat(number));
         }
-        console.log("calculou");
-        console.log(oldNumber);
-        console.log(number);
-        console.log(operator);
     }
 
     return (
